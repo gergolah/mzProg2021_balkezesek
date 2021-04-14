@@ -1,0 +1,7 @@
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\bin\Debug\BalkezesekModulzaro2021.exe.config
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\bin\Debug\BalkezesekModulzaro2021.exe
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\bin\Debug\BalkezesekModulzaro2021.pdb
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\obj\Debug\BalkezesekModulzaro2021.csprojAssemblyReference.cache
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\obj\Debug\BalkezesekModulzaro2021.csproj.CoreCompileInputs.cache
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\obj\Debug\BalkezesekModulzaro2021.exe
+C:\Users\MAKAKO\source\repos\BalkezesekModulzaro2021\BalkezesekModulzaro2021\obj\Debug\BalkezesekModulzaro2021.pdb
