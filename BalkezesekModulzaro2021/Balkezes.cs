@@ -8,7 +8,10 @@ namespace BalkezesekModulzaro2021
 {
     class Balkezes
     {
+        private string eredetiSor;
         private string nev;
+        private string keresztNev;
+        private string vezetekNev;
         private int elsoEvszamEv;
         private int elsoEvszamHo;
         private int elsoEvszamNap;
@@ -21,7 +24,11 @@ namespace BalkezesekModulzaro2021
         public Balkezes(string sor)
         {
             string[] s = sor.Split(';');
+            eredetiSor = sor;
             this.nev = s[0];
+            string[] osszesNev = s[0].Split(' ');
+            this.keresztNev = osszesNev[0];
+            this.vezetekNev = osszesNev[1];
             string[] sElso = s[1].Split('-');
             this.elsoEvszamEv = int.Parse(sElso[0]);
             this.elsoEvszamHo = int.Parse(sElso[1]);
@@ -35,7 +42,10 @@ namespace BalkezesekModulzaro2021
         }
 
         //getterek
+        public string GetAdatSor() { return eredetiSor; }
         public string GetNev() { return nev; }
+        public string GetKeresztNev() { return keresztNev; }
+        public string GetVezetekNev() { return vezetekNev; }
         public int GetElsoEvszamEv() { return elsoEvszamEv; }
         public int GetElsoEvszamHo() { return elsoEvszamHo; }
         public int GetElsoEvszamNap() { return elsoEvszamNap; }
